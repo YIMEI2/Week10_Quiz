@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.mySliders{
+  width: 80px;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+
+
+.mySliders:focus {
+  outline: none;
+}
+
+.mySliders::-webkit-slider-runnable-track {
+  background: #F3F0E7;
+  height: 6px;
+  -webkit-appearance: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.mySliders::-webkit-slider-thumb {
+  width: 16px;
+  height: 16px;
+  background: #56004F;
+  cursor: pointer;
+  -webkit-appearance: none;
+
+  margin-top: -5px;
+  border-radius: 8px;
+  
+}
+
+
